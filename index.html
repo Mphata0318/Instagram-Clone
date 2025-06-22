@@ -1,0 +1,123 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <title>Instagram Clone</title> 
+    <link rel="stylesheet" href="style.css">
+    </head> 
+
+<body>
+
+    <div class="navbar"> 
+        <h1>Instagram</h1>
+        <input type="text" placeholder="Search..." onkeyup="searchPosts(this.value)"/>
+    </div> 
+    <div class="stories">
+        <div class="story">
+            <img src="Assets/Untitled1.jpg" alt="story">
+            <p>Mphata</p>
+        </div>
+        <div class="story">
+            <img src="Assets/Untitled2.jpg" alt="story">
+            <p>Rose</p>
+        </div>
+        <div class="story">
+            <img src="Assets/Untitled3.jpg" alt="story">
+            <p>Thakgatso</p>
+        </div>
+        <div class="story">
+            <img src="Assets/Untitled4.jpg" alt="story">
+            <p>Rorisang</p>
+        </div>
+        <div class="story">
+            <img src="Assets/Untitled5.jpg" alt="story">
+            <p>Tokelo</p>
+        </div>
+        <div class="story">
+            <img src="Assets/Untitled6.jpg" alt="story">
+            <p>Tetelo</p>
+        </div>
+        <div class="story">
+            <img src="Assets/Untitled7.jpg" alt="story">
+            <p>Thato</p>
+        </div>
+    </div>
+
+    <div class="category">Resent Posts</div>
+
+    <div class="post">
+        <div class="post-header"> 
+            <img src="Assets/Untitled8.jpg" alt="Avatar"> 
+            <strong class="username">itssThato</strong> 
+        </div>
+        <img src="Assets/Untitled9.jpg" alt="Post" class="post-img">
+
+        <div class="post-actions"> 
+            <span class="like-btn" onclick="toggleLike(this)">♥</span>
+            <span class="comment-btn" onclick="alert('Open comment box')">📑</span> 
+        </div>
+
+        <div class="post-caption"> 
+            <strong>itssThato</strong> 
+            <p class="caption-text">Bright Colors!</p> 
+        </div>
+    </div>
+
+    <div class="post">
+        <div class="post-header"> 
+            <img src="Assets/Untitled8.jpg" alt="Avatar"> 
+            <strong class="username">rooooori</strong> 
+        </div>
+        <img src="Assets/Untitled9.jpg" alt="Post" class="post-img">
+
+        <div class="post-actions"> 
+            <span class="like-btn" onclick="toggleLike(this)">♥</span>
+            <span class="comment-btn" onclick="alert('Open comment box')">📑</span> 
+        </div>
+
+        <div class="post-caption"> 
+            <strong>rooooori</strong> 
+            <p class="caption-text">too right!</p> 
+        </div>
+    </div>
+
+    <div class="category">Comedy</div>
+
+    <div class="post">
+        <div class="post-header">
+            <img src="Assets/Untitled10.jpg" alt="Avatar">
+            <strong class="username">funnyguys</strong>
+        </div>
+
+        <img src="Assets/Untitled11.jpg" alt="meme" class="post-img">
+        <div class="post-actions">
+            <span class="like-btn" onclick="toggleLike(this)">♥</span>
+            <span class="comment-btn" onclick="alert('Open comment box')">📑</span>
+        </div>
+        <div class="post-caption">
+            <strong>funnyguys</strong>
+            <p class="caption-text">Tag someone who needs this!!!</p>
+        </div>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <img src="Assets/Untitled10.jpg" alt="Avatar">
+            <strong class="username">greentee</strong>
+        </div>
+
+        <img src="Assets/Untitled11.jpg" alt="meme" class="post-img">
+        <div class="post-actions">
+            <span class="like-btn" onclick="toggleLike(this)">♥</span>
+            <span class="comment-btn" onclick="alert('Open comment box')">📑</span>
+        </div>
+        <div class="post-caption">
+            <strong>greentee</strong>
+            <p class="caption-text">Tag!!!</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script> 
+</body> 
+</html>

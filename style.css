@@ -1,0 +1,119 @@
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: #fafafa; } 
+ 
+.navbar { 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #fff; 
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    position: sticky; 
+    top: 0; 
+    z-index: 10; 
+} 
+
+.navbar h1 { 
+    font-size: 30px;
+    color: #262626; 
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.navbar input{
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+
+.stories{
+    display: flex;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+
+.story{
+    margin-right: 15px;
+    text-align: center;
+}
+
+.story img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #dbdbdb;
+}
+
+.story p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.post { 
+    background-color: white;
+    max-width: 500px; 
+    margin: 20px auto; 
+    border: 1px solid #dbdbdb; 
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+
+.post-header { 
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
+}
+
+.post-header img { 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+.post-img { 
+    width: 100%; 
+    height: auto; 
+}
+
+.post-actions { 
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
+}
+
+.like-btn { 
+    cursor: pointer; 
+    font-size: 24px; 
+    color: #262626; 
+    transition: color 0.3s; 
+}
+
+.like-btn.liked{
+    color: red;
+}
+
+.comment-btn{
+    cursor: pointer;
+    font-size: 18px;
+    color: #262626;
+    margin-right: 10px;
+}
+
+.post-caption { 
+    padding: 0 10px 10px; 
+}
+
+.post-caption p {
+    margin: 5px 0 0; 
+}
+
+.category{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
